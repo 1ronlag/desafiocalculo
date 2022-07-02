@@ -1,0 +1,47 @@
+html{
+
+font-family: 'Condiment', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+}
+
+input{
+border-radius: 2%;
+
+}
+
+.container {
+    border: solid black 2px;
+background-color: red;
+}
+.card {
+    border: black 2px;
+    background-color: #68A807;
+    border: solid black 2px;
+    display: flex ;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 2%;
+}
+.main{
+    border: black 2px;
+
+}
+.name{
+color: aliceblue;
+font-size: 15px;
+}
+.price{
+    color: aliceblue;
+    font-size: 25px;
+}
+/*
+.button{
+background-color:orange ;
+color: aliceblue;
+
+}
+*/  
+.total{
+padding-bottom: 15px;
+}
