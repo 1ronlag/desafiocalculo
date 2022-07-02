@@ -1,47 +1,69 @@
-html{
-
-font-family: 'Condiment', cursive;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto Flex', sans-serif;
+html {
+  font-family: "Condiment", cursive;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto Flex", sans-serif;
 }
-
-input{
-border-radius: 2%;
-
+input {
+  border-radius: 2%;
 }
-
 .container {
-    border: solid black 2px;
-background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
 }
 .card {
-    border: black 2px;
-    background-color: #68A807;
-    border: solid black 2px;
-    display: flex ;
-    flex-direction: column;
-    text-align: center;
-    border-radius: 2%;
+  background-color: #68a807;
+  border: solid black 2px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 2%;
 }
-.main{
-    border: black 2px;
+.main {
+  border: black 2px;
+}
+.name {
+  color: aliceblue;
+  font-size: 15px;
+}
+.price {
+  color: aliceblue;
+  font-size: 25px;
+}
 
+.sales {
+  padding-top: 10%;
+  padding-left: 15px;
 }
-.name{
-color: aliceblue;
-font-size: 15px;
+.press{
+background: orange;
 }
-.price{
+.labelcolor{
     color: aliceblue;
-    font-size: 25px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 6px;
 }
-/*
-.button{
-background-color:orange ;
-color: aliceblue;
 
+.sales p {
+  padding-top: 20px;
+  font-size: 15px;
+  font-weight: bolder;
 }
-*/  
-.total{
-padding-bottom: 15px;
+.total {
+  padding-bottom: 10px;
+}
+.color {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: gray;
 }
